@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let services = Services()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        services.getVideosList { videos, error in
+
+        }
     }
-
-
 }
-
