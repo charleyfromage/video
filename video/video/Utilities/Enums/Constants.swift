@@ -6,10 +6,12 @@
 //  Copyright © 2019 Voodoo Coding. All rights reserved.
 //
 
-import Foundation
-
 enum Constants {
     enum APIs {
         static let movieEndPoint = "movies.json"
+    }
+
+    enum Segues {
+        static let pushToDetails = "pushToDetails"
     }
 }
