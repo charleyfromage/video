@@ -9,13 +9,23 @@
 import UIKit
 
 class VideoCell: UITableViewCell {
+    @IBOutlet private weak var thumbImageView: UIImageView!
+    @IBOutlet private weak var label: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
 
         selectionStyle = .none
     }
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+
+        thumbImageView.image = nil
+    }
+
     func setup(with video: Video) {
-        textLabel?.text = video.page.title
+        label.text = video.page.title
+        thumbImageView.setImageFromUrl(urlString: video.clips[0].thumbURL)
     }
 }

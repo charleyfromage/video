@@ -26,6 +26,7 @@
 		B241D4A4237DAFBF00F8AF1B /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B241D4A2237DAFBF00F8AF1B /* VideoCell.xib */; };
 		B241D4A6237DAFF900F8AF1B /* UITableViewCell+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241D4A5237DAFF900F8AF1B /* UITableViewCell+Helpers.swift */; };
 		B241D4A8237DB02400F8AF1B /* NSObject+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241D4A7237DB02400F8AF1B /* NSObject+Helpers.swift */; };
+		B2C8150B2382E03900231C19 /* UIImageView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8150A2382E03900231C19 /* UIImageView+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		B241D4A2237DAFBF00F8AF1B /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VideoCell.xib; path = video/UI/VideoCell.xib; sourceTree = SOURCE_ROOT; };
 		B241D4A5237DAFF900F8AF1B /* UITableViewCell+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Helpers.swift"; path = "video/UITableViewCell+Helpers.swift"; sourceTree = SOURCE_ROOT; };
 		B241D4A7237DB02400F8AF1B /* NSObject+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSObject+Helpers.swift"; path = "video/Utilities/NSObject+Helpers.swift"; sourceTree = SOURCE_ROOT; };
+		B2C8150A2382E03900231C19 /* UIImageView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+Helpers.swift"; path = "video/UIImageView+Helpers.swift"; sourceTree = SOURCE_ROOT; };
 		BBABE4926D1C4E561C44D9EA /* Pods-video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video.debug.xcconfig"; path = "Target Support Files/Pods-video/Pods-video.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 			children = (
 				B241D4A7237DB02400F8AF1B /* NSObject+Helpers.swift */,
 				B241D4A5237DAFF900F8AF1B /* UITableViewCell+Helpers.swift */,
+				B2C8150A2382E03900231C19 /* UIImageView+Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			files = (
 				B241D47B237C49B300F8AF1B /* Configuration.swift in Sources */,
 				B241D477237C493000F8AF1B /* Services.swift in Sources */,
+				B2C8150B2382E03900231C19 /* UIImageView+Helpers.swift in Sources */,
 				B241D4A6237DAFF900F8AF1B /* UITableViewCell+Helpers.swift in Sources */,
 				B241D460237C446100F8AF1B /* AppDelegate.swift in Sources */,
 				B241D462237C446100F8AF1B /* SceneDelegate.swift in Sources */,

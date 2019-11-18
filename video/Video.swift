@@ -45,17 +45,20 @@ extension Page: Decodable {
 
 struct Clip {
     let versions: Versions
+    let thumbURL: String
 }
 
 extension Clip: Decodable {
     private enum CodingKeys: String, CodingKey {
         case versions = "versions"
+        case thumbURL = "thumb"
     }
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
         self.versions = try container.decode(Versions.self, forKey: .versions)
+        self.thumbURL = try container.decode(String.self, forKey: .thumbURL)
     }
 }
 
